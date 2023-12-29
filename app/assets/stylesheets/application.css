@@ -13,3 +13,119 @@
  *= require_tree .
  *= require_self
  */
+body {
+  font-family: "Arial", sans-serif; /* カスタムフォントを適用 */
+  background-color: #f9f9f9; /* 明るい背景色 */
+  color: #333; /* 読みやすい文字色 */
+  line-height: 1.6; /* 行間を適切に設定 */
+  padding: 20px; /* ページの周りに余白を設定 */
+}
+
+h1 {
+  color: #0275d8; /* タイトルの色 */
+}
+
+/* 全体の中央揃え */
+.center-content {
+  text-align: center; /* テキストを中央揃え */
+}
+
+/* ボタンのスタイルをポップに修正 */
+.choice-button {
+  display: inline-block; /* インラインブロック要素として表示 */
+  padding: 15px 30px; /* 内側の余白を大きく */
+  margin: 20px; /* 外側の余白を少し大きく */
+  font-size: 22px; /* 文字サイズを大きく */
+  font-weight: bold; /* 文字を太く */
+  color: #ffffff; /* 文字色を白に */
+  background-color: #f76c6c; /* 明るい赤色の背景 */
+  border: none; /* 枠線なし */
+  border-radius: 30px; /* 角をより丸く */
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); /* 影を大きく */
+  text-decoration: none; /* 下線を消す */
+  transition: transform 0.2s, background-color 0.3s; /* アニメーションを追加 */
+}
+
+.choice-button:hover {
+  background-color: #fa8e8e; /* ホバー時の背景色を明るく */
+  transform: scale(1.05); /* ホバー時に少し大きく */
+}
+
+.goodend-title {
+  color: #d9534f; /* タイトルの色 */
+  text-align: center; /* 中央揃え */
+  margin-bottom: 20px; /* 下の余白 */
+  font-size: 55px; /* フォントサイズ */
+  font-weight: bold; /* フォントの太さ */
+}
+
+/* 画像のスタイル */
+.goodend-image {
+  display: block; /* ブロック要素として表示 */
+  margin: 0 auto; /* 左右のマージンを自動で設定し中央揃え */
+  border-radius: 10px; /* 角を丸く */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 影をつける */
+}
+
+.badend-title {
+  color: #d9534f; /* タイトルの色 */
+  text-align: center; /* 中央揃え */
+  margin-bottom: 20px; /* 下の余白 */
+  font-size: 55px; /* フォントサイズ */
+  font-weight: bold; /* フォントの太さ */
+}
+
+/* 画像のスタイル */
+.badend-image {
+  display: block; /* ブロック要素として表示 */
+  margin: 0 auto; /* 左右のマージンを自動で設定し中央揃え */
+  border-radius: 10px; /* 角を丸く */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 影をつける */
+}
+
+/* ユーザー登録画面のタイトルスタイル */
+.registration-title {
+  color: #0275d8; /* タイトルの色 */
+  text-align: center; /* 中央揃え */
+  margin-bottom: 20px; /* 下の余白 */
+  font-size: 50px; /* フォントサイズ */
+  font-weight: bold; /* フォントの太さ */
+}
+
+/* フォームのスタイル */
+.form-container {
+  text-align: center; /* 中央揃え */
+  margin: 20px auto; /* 上下のマージンと自動左右マージン */
+  max-width: 400px; /* 最大幅 */
+  padding: 20px; /* 内側の余白 */
+  background-color: #f9f9f9; /* 背景色 */
+  border-radius: 10px; /* 角を丸く */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 影をつける */
+}
+
+/* 入力フォームのスタイル */
+.input-field {
+  width: 80%; /* 幅 */
+  padding: 10px; /* 内側の余白 */
+  margin-bottom: 15px; /* 下の余白 */
+  font-size: 16px; /* フォントサイズ */
+  border: 2px solid #0275d8; /* 枠線 */
+  border-radius: 5px; /* 角を丸く */
+}
+
+/* 送信ボタンのスタイル */
+.submit-button {
+  padding: 10px 20px; /* 内側の余白 */
+  font-size: 18px; /* 文字サイズ */
+  font-weight: bold; /* 文字を太く */
+  color: white; /* 文字色 */
+  background-color: #5cb85c; /* 背景色 */
+  border: none; /* 枠線なし */
+  border-radius: 5px; /* 角を丸く */
+  cursor: pointer; /* カーソルをポインターに */
+  transition: background-color 0.3s; /* 色の変化を滑らかに */
+}
+
+.submit-button:hover {
+  background-color: #449d44; /* ホバー時の背景色 */
+}
